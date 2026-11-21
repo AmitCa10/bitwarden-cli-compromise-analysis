@@ -1,0 +1,19 @@
+[
+  {
+    "sample": "research/malware/bitwarden-cli-compromise-analysis/evidence/bw_setup.js",
+    "sha256": "37f34aa3b86db6898065f3ca886031978580a15251f2576f6d24c3b778907336",
+    "bytes": 4292,
+    "checks": {
+      "published_loader_hash": true,
+      "preinstall_points_to_loader": true,
+      "binary_points_to_loader": true,
+      "outer_version_is_2026_4_0": true,
+      "embedded_version_is_2026_3_0": true,
+      "installed_bun_early_return": true,
+      "pure_node_zip_fallback": true
+    },
+    "dual_loader_entrypoints": true,
+    "version_mismatch": true,
+    "verdict": "dual_entrypoint_and_version_mismatch"
+  }
+]

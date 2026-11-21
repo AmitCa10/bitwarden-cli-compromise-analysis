@@ -1,0 +1,6 @@
+{
+  "declaredPackageVersion": "2026.4.0",
+  "embeddedApplicationVersion": "2026.3.0",
+  "source": "https://research.jfrog.com/post/bitwarden-cli-hijack/",
+  "note": "Version values documented by JFrog and StepSecurity; this is provenance metadata, not a recovered build/bw.js file."
+}

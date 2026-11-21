@@ -1,0 +1,23 @@
+{
+  "handling": "Recovered public artifact and documented metadata, not a direct registry tarball. Do not execute or publish raw analysis sources.",
+  "artifacts": [
+    {
+      "path": "bw_setup.js",
+      "source": "https://gist.github.com/N3mes1s/9c210b64760390f1ca2c451100a5ec99",
+      "provenance": "Recovered loader extracted from the public analysis appendix",
+      "sha256": "37f34aa3b86db6898065f3ca886031978580a15251f2576f6d24c3b778907336",
+      "bytes": 4292,
+      "published_hash_match": "https://www.aikido.dev/blog/shai-hulud-npm-bitwarden-cli-compromise"
+    },
+    {
+      "path": "package.json",
+      "provenance": "Relevant manifest fields documented by JFrog and SafeDep, not a complete original manifest",
+      "source": "https://research.jfrog.com/post/bitwarden-cli-hijack/"
+    },
+    {
+      "path": "embedded-metadata.json",
+      "provenance": "Version values documented by JFrog and StepSecurity, not a recovered build/bw.js file",
+      "source": "https://research.jfrog.com/post/bitwarden-cli-hijack/"
+    }
+  ]
+}
